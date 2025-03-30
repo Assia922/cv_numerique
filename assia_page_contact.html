@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Assia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg fill='none' stroke='%23e2e8f0' stroke-width='0.5'%3E%3Cpath d='M0 0L0 20M20 0L20 20M0 0L20 0M0 20L20 20'/%3E%3C/g%3E%3C/svg%3E");
+      background-size: 20px 20px;
+      background-color: #f6f7f9;
+      font-family: 'Fira Code', monospace;
+      color: #111;
+      margin: 0;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 40px;
+      background-color: #f6f7f9;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-top: 8px;
+      font-weight: 500;
+      color: #4b5563;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 20px 0;
+      background-color: #f6f7f9;
+    }
+    nav a {
+      text-decoration: none;
+      color: #000;
+      border: 2px solid #000;
+      background-color: #fff;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+    nav a.active, nav a:hover {
+      background-color: #000;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1.05rem;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 2.2rem;
+      border-right: 3px solid #000000;
+      overflow: hidden;
+      white-space: nowrap;
+      width: 0;
+      animation: typewriter 2s steps(30, end) forwards;
+    }
+    @keyframes typewriter {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    .contact-links {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+    .contact-links a {
+      padding: 14px 28px;
+      background: #000;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease, transform 0.3s ease;
+    }
+    .contact-links a:hover {
+      background: #22c55e;
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+    .portfolio {
+      margin-top: 60px;
+      text-align: center;
+    }
+    .portfolio a {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #1e1e1e;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease, transform 0.3s ease;
+    }
+    .portfolio a:hover {
+      background: #22c55e;
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Assia</h1>
+    <p>Data Analyst | Freelance</p>
+  </header>
+
+  <nav>
+    <a href="index.html">À propos</a>
+    <a href="services.html">Services</a>
+    <a href="projects.html">Projets</a>
+    <a href="experience.html">Expériences</a>
+    <a href="formations.html">Formations</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  
+
+  <section class="section">
+    <h2>contact_data</h2>
+    <div class="contact-links">
+      <a href="mailto:apourladata@gmail.com">📧 Email : apourladata@gmail.com</a>
+      <a href="https://www.linkedin.com/in/assia-tarisse" target="_blank">🔗 LinkedIn</a>
+      <a href="https://www.malt.fr/profile/assiatarisse" target="_blank">🧑‍💻 Profil Malt</a>
+    </div>
+
+    <div class="portfolio">
+      <h3 style="margin-bottom: 15px;">Portfolio</h3>
+      <a href="https://github.com/Assia922" target="_blank">🐙 GitHub</a>
+    </div>
+  </section>
+
+</body>
+</html>
